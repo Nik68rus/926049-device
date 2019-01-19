@@ -12,14 +12,26 @@
 					<input class="form-field" type="search" name="search" placeholder="Поиск по сайту">
 					<button class="button" type="submit">Найти</button>
 				</form>
-				<ul class="user-navigation">
+				<ul class="user-navigation list-style">
 					<li><a href="#">Валентин Петухов</a></li>
 					<li><a href="#">Выйти</a></li>
 					<li><a href="#">Сравнить</a></li>
 					<li><a href="#">Корзина</a></li>
 				</ul>
-				<ul class="site-navigation">
-					<li><a href="#">Каталог товаров</a></li>
+				<ul class="site-navigation list-style">
+					<li>
+						<a href="#">Каталог товаров</a>
+						<div class="catalog-menu">
+							<ul class="categories-list list-style">
+								<li><a href="#">Виртуальная реальность</a></li>
+								<li><a href="#">Фитнес-браслеты</a></li>
+								<li><a href="#">Квадрокоптеры</a></li>
+								<li><a href="catalog.html">Моноподы для селфи</a></li>
+								<li><a href="#">Умные часы</a></li>
+								<li><a href="#">Экшн-камеры</a></li>
+							</ul>
+						</div>
+					</li>
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Гарантия</a></li>
 					<li><a href="#">Контакты</a></li>
@@ -29,7 +41,7 @@
 
 		<main>
 			<h1>Моноподы для селфи</h1>
-			<ul class="breadcrumbs">
+			<ul class="breadcrumbs list-style">
 				<li><a href="">Главная</a></li>
 				<li><a href="">Каталог товаров</a></li>
 				<li>Моноподы для селфи</li>
@@ -39,7 +51,7 @@
 				<form class="filter-form">
 					<fieldset class="filter-fieldset">
 						<legend>Цвет</legend>
-						<ul class="color-filters">
+						<ul class="color-filters list-style">
 							<li>
 								<input class="visually-hidden" type="checkbox" name="black" id="filter-black" checked>
 								<label for="filter-black">Черный</label>
@@ -64,7 +76,7 @@
 					</fieldset>
 					<fieldset class="filter-fieldset">
 						<legend>Bluetooth</legend>
-						<ul class="bluetooth-filters">
+						<ul class="bluetooth-filters list-style">
 							<li>
 								<input class="visually-hidden" type="radio" name="bluetooth" value="yes" id="bluetooth-yes" checked>
 								<label for="bluetooth-yes">Есть</label>
@@ -113,20 +125,20 @@
 
 		<footer>
 			<a class="footer-logo" href="#">Device</a>
-			<ul class="footer-user-navigation">
+			<ul class="footer-user-navigation list-style">
 				<li><a href="#">Ваентин Петухов</a></li>
 				<li><a href="#">Выйти</a></li>
 				<li><a href="#">Сравнить</a></li>
 				<li><a href="#">Корзина</a></li>
 			</ul>
 			<p>г. Москва, ул. Строителей, 15</p>
-			<ul class="footer-site-navigation">
+			<ul class="footer-site-navigation list-style">
 				<li><a href="#">Доставка</a></li>
 				<li><a href="#">Гарантия</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
 			<a class="phone" href="tel:+74954959595">+7(495)495-95-95</a>
-			<ul class="social-list">
+			<ul class="social-list list-style">
 				<li class="social-button"><a href="#">Фейсбук</a></li>
 				<li class="social-button"><a href="#">Инстаграм</a></li>
 				<li class="social-button"><a href="#">Твиттер</a></li>
