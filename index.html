@@ -20,7 +20,7 @@
 				<ul class="site-navigation list-style">
 					<li>
 						<a href="#">Каталог товаров</a>
-						<div class="catalog-menu">
+						<div class="catalog-menu not-show">
 							<ul class="categories-list list-style">
 								<li><a href="#">Виртуальная реальность</a></li>
 								<li><a href="#">Фитнес-браслеты</a></li>
@@ -40,6 +40,7 @@
 
 		<main>
 			<section class="catalog-slider">
+				<h2 class="visually-hidden">Новинки</h2>
 				<input class="visually-hidden" type="radio" id="product-1" name="product-toggle" checked>
 				<input class="visually-hidden" type="radio" id="product-2" name="product-toggle">
 				<input class="visually-hidden" type="radio" id="product-3" name="product-toggle">
@@ -103,6 +104,7 @@
 				</ul>
 			</section>
 			<section class="catalog-navigation">
+				<h2 class="visually-hidden">Категории товаров</h2>
 				<ul class="catalog-navigation-list">
 					<li class="catalog-navigation-item">
 						<a class="catalog-link" href="#">
@@ -143,6 +145,7 @@
 				</ul>
 			</section>
 			<section class="service-slider">
+				<h2 class="visually-hidden">Услуги</h2>
 				<input class="visually-hidden" type="radio" id="service-1" name="service-toggle" checked>
 				<input class="visually-hidden" type="radio" id="service-2" name="service-toggle">
 				<input class="visually-hidden" type="radio" id="service-3" name="service-toggle">
@@ -170,6 +173,7 @@
 				</ul>
 			</section>
 			<section class="manufactures">
+				<h2 class="visually-hidden">Бренды</h2>
 				<ul class="manufactures-list list-style">
 					<li><a href="#"><img src="img/logo-1.png" width="260" height="100" alt="DJI"></a></li>
 					<li><a href="#"><img src="img/logo-2.png" width="260" height="100" alt="SP Gadgets"></a></li>
@@ -219,6 +223,32 @@
 			</ul>
 			<a href=""><img src="img/logo-html.svg" width="27" height="36" alt="Логотип HTML Academy"></a>
 		</footer>
+
+		<section class="contact-us not-show">
+			<h2 class="visually-hidden">Форма обратной связи</h2>
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<label>
+					Ваше имя:
+					<input class="form-field" type="text" name="name" placeholder="Имя Фамилия">
+				</label>
+				<label>
+					Ваш e-mail:
+					<input class="form-field" type="text" name="email" placeholder="email@example.com">
+				</label>
+				<label>
+					Текст письма:
+					<input class="form-field" type="textarea" name="message" placeholder="В свободной форме">
+				</label>
+				<button class="button" type="submit">Отправить</button>
+				<button class="modal-close" type="button">Закрыть</button>
+			</form>
+		</section>
+		<section class="map not-show">
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<img src="img/map-big.jpg" width="960" height="559" alt="Моска, ул. Строителей, 15 на карте">
+				<button class="modal-close" type="button">Закрыть</button>
+			</form>
+		</section>
 
   </body>
 </html>
